@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from gensim.summarization import summarize
 from pprint import pprint
-url_list = ["https://www.latimes.com/california/story/2020-03-09/coronavirus-cases-in-california-rise-to-133-here-is-what-you-need-to-know","https://nypost.com/2020/03/09/new-jersey-coronavirus-patient-thinks-he-caught-it-at-times-square-hotel/","https://www.kvue.com/article/news/health/coronavirus/coronavirus-man-traveling-from-austin-to-india-tests-positive/269-77511074-d840-456e-b846-419adf96a861","https://newyork.cbslocal.com/2020/03/09/coronavirus-update-new-jersey-patient-speaks-out/"]
+url_list = []
 test_url = url_list[3]
 
 page = requests.get(test_url).text
