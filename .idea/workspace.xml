@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a5ca3e-8461-4aca-abd6-c9a3d228af85" name="Default Changelist" comment="" />
+    <list default="true" id="39a5ca3e-8461-4aca-abd6-c9a3d228af85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cleaned_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsentimentanalysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,7 +55,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.webscraper">
+  <component name="RunManager" selected="Python.testsentimentanalysis">
+    <configuration name="testsentimentanalysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="INFO3700GroupProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testsentimentanalysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testwebscrape" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="INFO3700GroupProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testsentimentanalysis" />
         <item itemvalue="Python.webscraper" />
         <item itemvalue="Python.testwebscrape" />
       </list>
@@ -100,7 +142,10 @@
       <updated>1583807308130</updated>
       <workItem from="1583807319381" duration="4223000" />
       <workItem from="1583951188947" duration="275000" />
-      <workItem from="1583961191375" duration="1998000" />
+      <workItem from="1583961191375" duration="2281000" />
+      <workItem from="1583964622458" duration="2368000" />
+      <workItem from="1584035071416" duration="1789000" />
+      <workItem from="1584044790245" duration="732000" />
     </task>
     <servers />
   </component>
@@ -108,33 +153,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1583963010622">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1584036922569">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.822/-1920.-157.1920.1057@0.23.1440.822" timestamp="1584036922569" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.824/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1583950149619" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1583963010622" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1583963010621">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1583971841114" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1584036922569">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.822/-1920.-157.1920.1057@0.23.1440.822" timestamp="1584036922569" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.824/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1583950149618" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1583963010621" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1583963010620">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1583971841113" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1584036922568">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.822/-1920.-157.1920.1057@0.23.1440.822" timestamp="1584036922568" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.824/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1583950149618" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1583963010620" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1583963010621">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1583971841098" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1584036922569">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.822/-1920.-157.1920.1057@0.23.1440.822" timestamp="1584036922569" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.824/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1583950149619" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1583971841114" />
+    <state x="415" y="164" key="RollbackChangesDialog" timestamp="1583965377130">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.824/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1583950149619" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1583963010621" />
+    <state x="415" y="164" key="RollbackChangesDialog/0.23.1440.824@0.23.1440.824" timestamp="1583965377130" />
     <state x="212" y="85" key="SettingsEditor" timestamp="1583962097287">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="212" y="85" key="SettingsEditor/0.23.1440.824@0.23.1440.824" timestamp="1583962097287" />
+    <state x="385" y="171" width="670" height="676" key="search.everywhere.popup" timestamp="1583966998880">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.23.1440.824@0.23.1440.824" timestamp="1583966998880" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/INFO3700GroupProject$testwebscrape.coverage" NAME="testwebscrape Coverage Results" MODIFIED="1583962153569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/INFO3700GroupProject$testsentimentanalysis.coverage" NAME="testsentimentanalysis Coverage Results" MODIFIED="1584045753856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/INFO3700GroupProject$webscraper.coverage" NAME="webscraper Coverage Results" MODIFIED="1583962932736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
