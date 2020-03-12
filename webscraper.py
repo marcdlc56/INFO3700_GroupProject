@@ -1,9 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 from gensim.summarization import summarize
-from pprint import pprint
+
 url_list = []
-test_url = url_list[3]
+test_url = url_list[0]
 
 page = requests.get(test_url).text
 soup = BeautifulSoup(page, "html5lib")
